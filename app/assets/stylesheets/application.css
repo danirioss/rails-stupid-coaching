@@ -13,3 +13,46 @@
  *= require_tree .
  *= require_self
  */
+
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Noto+Sans+Khmer:wght@300&display=swap');
+
+ body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+h3 {
+  font-family: 'Noto Sans Khmer', sans-serif;
+}
+
+h1 {
+  font-size: 1,5em;
+}
+
+.homepage {
+  display: flex;
+  justify-content: center;
+  margin: 200px 0;
+}
+
+.ask {
+  display: flex;
+  justify-content: center;
+  margin: 250px 0;
+}
+
+.answer {
+  display: flex;
+  justify-content: center;
+  margin: 200px 0;
+}
+
+.cardi {
+  border-left: solid thick rgba(152, 152, 147);
+  margin: 20px 0;
+  padding: 5px 20px;
+}
+
+.cardi-answer {
+  background-color: rgb(255, 255, 122, 0.5)
+ }
